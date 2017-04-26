@@ -37,7 +37,7 @@
 %\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \photo[64pt][0.1pt]{Partha_Bera}                    % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{}                                 % optional, remove / comment the line if not wanted
+\quote{There are hidden links in the resume!}                                 % optional, remove / comment the line if not wanted
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -53,7 +53,7 @@
 
 \section{Experience}
 \subsection{Professional (3 years 5 months)}
-\cventry{Sep 16--present}{Senior Software Engineer}{AFour Technologies Pvt Ltd}{Pune}{}{
+\cventry{Sep 16--present}{Senior Software Engineer}{AFour Technologies}{Pune}{}{
 \begin{itemize}
 	\item Research and development in cloud, virtualization and storage.
 		\begin{itemize}
@@ -61,17 +61,19 @@
 			\item Explored Changed Block Tracking mechanism and VDDK API of VMware vSphere.
 			\item Explored libvirt API and QEMU virtualizer.
 		\end{itemize}
-	\item Pioneered OpenStack contribution in the company.
+	\item \httplink[Pioneered OpenStack contribution in the company.]{stackalytics.com/report/companies/AFour\%20Technologies}
 		\begin{itemize}
 			\item Explored OpenStack core servies like Nova and Cinder.
 			\item Explored OpenStack backup service, Freezer.
-			\item Understood OpenStack development process: devstack, test frameworks, review system etc.
-			\item \httplink[Fixed few bugs.]{review.openstack.org/\#/q/owner:\%22Partha+Bera\%22}
+			\item Understood OpenStack development process: devstack, test frameworks (tempest, unittest), code review etc.
+			\item \httplink[Fixed several bugs.]{review.openstack.org/\#/q/owner:\%22Partha+Bera\%22}
 		\end{itemize}
+	\item Designed and developed Swagger based framework for automated test case generation and execution.
 	\item Mentored junior engineers with design, work flow, coding standard etc.
 	\item Technologies: C/C++, Python, OpenStack, REST API, Git.
 \end{itemize}}
-\cventry{Oct 15--May 16}{Software Engineer}{Veritas Software Technologies India Pvt Ltd}{Pune}{}{
+%\cventry{Oct 15--May 16}{Software Engineer}{Veritas Software Technologies India Pvt Ltd}{Pune}{}{
+\cventry{Jul 13--May 16}{Software Engineer}{Veritas (formerly part of Symantec)}{Pune}{}{
 \begin{itemize}
 	\item Worked as a lead contributor on the feature \httplink[\emph{Secure Data at Rest}]
 		{vox.veritas.com/t5/Storage-Clustering-Community/Encryption-of-Data-at-Rest/ba-p/778564} (released in Veritas InfoScale 7.1).
@@ -81,16 +83,21 @@
 			\item Fixed few critical bugs.
 		\end{itemize}
 	\item Worked on the Single File Restore plugin for Veritas NetBackup.
-	\item Technologies: C, Shell, GDB, Crash, Git.
-\end{itemize}}
-\cventry{Jul 13--Oct 15}{Software Engineer}{Symantec Software India Pvt Ltd}{Pune}{}{
-\begin{itemize}
 	\item Fixed various bugs in both product and test cases.
 	\item Wrote new enhancement scripts and test cases.
 	\item Maintained build and test automations.
 	\item Went through training of Agile Software Development.
-	\item Technologies: C, Shell, GDB, CVS.
+	\item Technologies: C, Shell, GDB, Crash, Git.
 \end{itemize}}
+%\cventry{Jul 13--Oct 15}{Software Engineer}{Symantec Software India Pvt Ltd}{Pune}{}{
+%\begin{itemize}
+%	\item Fixed various bugs in both product and test cases.
+%	\item Wrote new enhancement scripts and test cases.
+%	\item Maintained build and test automations.
+%	\item Went through training of Agile Software Development.
+%	\item Technologies: C, Shell, GDB, CVS.
+%\end{itemize}}
+\newpage
 \subsection{Teaching (2 years)}
 \cventry{Jul 11--Jul 13}{Teaching Assistant}{Indian Institute of Technology Delhi}{New Delhi}{}{
 \begin{itemize}
@@ -99,10 +106,9 @@
 	\item Corrected test and assignment papers.
 	\item Helped professors with grading students.
 \end{itemize}}
-\newpage
 \section{Technical Skills}
 \cvitem{Programming Languages}{C, C++, Python, Unix Shell, Java}
-\cvitem{Libraries}{POSIX Threads, OpenGL}
+\cvitem{Libraries}{POSIX Threads, Unix Socket, OpenGL}
 \cvitem{Softwares}{GDB, Crash, Git, Vim, NetBeans IDE, \LaTeX}
 \cvitem{Web Technologies}{HTML, CSS, PHP, MySQL}
 \cvitem{Platforms}{OpenStack, Linux, AIX, Cygwin}
